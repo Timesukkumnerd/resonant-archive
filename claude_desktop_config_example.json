@@ -1,0 +1,59 @@
+{
+  "mcpServers": {
+    "resonant-archive": {
+      "command": "resonant-archive",
+      "args": ["mcp"]
+    }
+  }
+}
+
+IMPORTANT NOTES:
+
+1. This assumes you installed resonant-archive via pip and the
+   `resonant-archive` command is on your PATH. Verify with:
+     resonant-archive --version
+
+   If the command is not found, use the full path to the script:
+     - Windows: "C:\\Users\\YourName\\.venv\\Scripts\\resonant-archive.exe"
+     - macOS:   "/Users/yourname/.venv/bin/resonant-archive"
+     - Linux:   "/home/yourname/.venv/bin/resonant-archive"
+
+2. You MUST start the daemon BEFORE opening Claude Desktop:
+     resonant-archive serve
+
+   Keep that terminal open. Close it with Ctrl+C when done.
+
+3. Your actual Claude Desktop config lives at:
+     - Windows: %APPDATA%\Claude\claude_desktop_config.json
+     - macOS:   ~/Library/Application Support/Claude/claude_desktop_config.json
+     - Linux:   ~/.config/Claude/claude_desktop_config.json
+
+4. Add the "resonant-archive" block to your existing config's
+   "mcpServers" object. Don't replace the whole file — merge in
+   alongside any servers you already have.
+
+5. Restart Claude Desktop COMPLETELY after editing the config
+   (quit the app entirely, then reopen).
+
+6. Once wired up, Claude Desktop will see two new tools:
+     - archive_search(query, namespace?, n_results?)
+     - archive_stats()
+
+   Ask Claude "search my archive for X" and it'll call the right
+   tool automatically.
+
+
+Example of a complete config file with multiple MCP servers:
+
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "C:\\allowed\\path"]
+    },
+    "resonant-archive": {
+      "command": "resonant-archive",
+      "args": ["mcp"]
+    }
+  }
+}
