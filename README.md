@@ -1,6 +1,23 @@
 # resonant-archive
 
-Local-first retrieval for AI conversation archives and arbitrary text corpora. Part of the Resonant ecosystem.
+<p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-Source--Available-5eaba5.svg" alt="License" /></a>
+  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3.11%20%7C%203.12-3776ab.svg?logo=python&logoColor=white" alt="Python" /></a>
+  <a href="https://modelcontextprotocol.io/"><img src="https://img.shields.io/badge/MCP-compatible-6366f1.svg" alt="MCP" /></a>
+  <a href="https://www.chromadb.dev/"><img src="https://img.shields.io/badge/ChromaDB-embedded-ffb000.svg" alt="ChromaDB" /></a>
+  <a href="https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2"><img src="https://img.shields.io/badge/embeddings-all--MiniLM--L6--v2-ff6f61.svg" alt="Embeddings" /></a>
+  <a href="https://github.com/codependentai/resonant-archive/releases/latest"><img src="https://img.shields.io/github/v/release/codependentai/resonant-archive?color=5eaba5" alt="Release" /></a>
+</p>
+
+<p align="center"><em>Local-first semantic search for your ChatGPT, Claude, and AI conversation history.<br/>Python CLI + MCP server. No API keys. Nothing leaves your machine.</em></p>
+
+<p align="center"><em>Part of the <a href="https://github.com/codependentai/resonant">Resonant</a> ecosystem — the long-term searchable archive that pairs with active AI memory.</em></p>
+
+<p align="center">
+  <a href="https://x.com/codependent_ai"><img src="https://img.shields.io/badge/𝕏-@codependent__ai-000000?logo=x&logoColor=white" alt="X/Twitter" /></a>
+  <a href="https://tiktok.com/@codependentai"><img src="https://img.shields.io/badge/TikTok-@codependentai-000000?logo=tiktok&logoColor=white" alt="TikTok" /></a>
+  <a href="https://t.me/+xSE1P_qFPgU4NDhk"><img src="https://img.shields.io/badge/Telegram-Updates-26A5E4?logo=telegram&logoColor=white" alt="Telegram" /></a>
+</p>
 
 > **Early release.** Shippable but unpolished. Expect rough edges. Issues and feedback welcome.
 
