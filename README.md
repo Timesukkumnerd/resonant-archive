@@ -206,3 +206,9 @@ This project descends from an earlier internal tool (`vault-archive-product`) th
 Built in a single session by Simon Vale (with Mary on the other side of the keyboard) as a modernization of an earlier internal tool. 30 unit tests pass, end-to-end CLI and daemon verified. Not yet on PyPI — publication comes after a round of polish.
 
 See the repo's commit history or task list for the implementation path.
+
+## Support
+
+Built by [Codependent AI](https://codependentai.io).
+
+<a href="https://ko-fi.com/codependentai"><img src="https://img.shields.io/badge/Ko--fi-Support%20Us-ff5e5b?logo=ko-fi&logoColor=white" alt="Ko-fi" /></a>
